@@ -1,8 +1,3 @@
-# Generate a random suffix to ensure global uniqueness of the bucket name
-resource "random_id" "suffix" {
-  byte_length = 3
-}
-
 # Create a Google Cloud Storage bucket to host the static website
 resource "google_storage_bucket" "site" {
   name     = "my-bucket-for-project-kasia"
