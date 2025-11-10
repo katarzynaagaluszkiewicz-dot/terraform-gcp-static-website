@@ -20,16 +20,3 @@ The project also includes a GitHub Actions workflow for CI (terraform fmt, valid
   - `roles/storage.admin`
   - `roles/storage.objectAdmin` (optional but recommended)
       
-terraform-gcp-static-website/
-├─ main.tf
-├─ providers.tf
-├─ variables.tf
-├─ outputs.tf
-├─ versions.tf
-├─ site/
-│  └─ index.html
-├─ .github/
-│  └─ workflows/
-│     └─ terraform.yml
-└─ README.md
-
