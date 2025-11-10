@@ -1,7 +1,6 @@
 # Terraform – GCP Static Website (GCS)
 Project: Terraform – GCP Static Website 'Cloud Storage'
 This is a example of deploying a static website to Google Cloud Storage using Terraform as Infrastructure as Code (IaC).  
-The project also includes a GitHub Actions workflow for CI (terraform fmt, validate, plan).
 
 ## What this project demonstrates
 - Terraform folder structure and modular code layout
