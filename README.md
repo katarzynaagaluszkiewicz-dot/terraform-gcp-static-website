@@ -18,5 +18,4 @@ The project also includes a GitHub Actions workflow for CI (terraform fmt, valid
 - Existing GCP project
 - Service Account credentials file (JSON) with at least:
   - `roles/storage.admin`
-  - `roles/storage.objectAdmin` (optional but recommended)
       
