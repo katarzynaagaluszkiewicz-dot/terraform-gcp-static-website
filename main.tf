@@ -5,7 +5,7 @@ resource "random_id" "suffix" {
 
 # Create a Google Cloud Storage bucket to host the static website
 resource "google_storage_bucket" "site" {
-  name     = "${var.bucket_name_prefix}-${random_id.suffix.hex}"
+  name     = "my-bucket-for-project-kasia"
   location = "US"
 
   uniform_bucket_level_access = true
